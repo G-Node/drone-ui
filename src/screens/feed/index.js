@@ -51,7 +51,7 @@ export default class Sidebar extends Component {
 
 		return (
 			<div className={style.feed}>
-				{LOGO}
+					{LOGO}
 				<input
 					type="text"
 					placeholder="Search …"
@@ -86,8 +86,7 @@ const renderItem = item => {
 };
 
 const LOGO = (
-	<div className={style.brand}>
-		<DroneIcon />
+	<div className={style.logo}>
 	</div>
 );
 
